@@ -42,7 +42,7 @@ $ git push -u origin master
 使用命令：git clone git@github.com:michaelliao/gitskills.git
 Duang！就可以在你的本地仓库看到啦。
 
-17.分支应用
+17.分支应用git branch
 
 
 
