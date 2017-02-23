@@ -29,8 +29,20 @@ git reset HEAD file可以把暂存区的修改撤销掉，重新放回工作区�
 13.git rm 删除文件
 14.github网站就是提供git仓库托管服务的，也就是远程仓库；
 
+15.如何将本地仓库推送到远程仓库中，实现同步呢？
+步骤1：在GitHub上创建一个仓库；
+步骤2：在本地的仓库下右键启动git bush命令，根据GitHub提示，在git命令中输入运行命令：
+$ git remote add origin git@github.com:michaelliao/learngit.git
+其中origin表示远程仓库的名字
+步骤3：将本地库的所有内容推送到远程库上：
+$ git push -u origin master
+完成上述步骤以后，在GitHub上就可以看到本地仓库和远程仓库保持一致了。
 
+16.从远程库克隆
+使用命令：git clone git@github.com:michaelliao/gitskills.git
+Duang！就可以在你的本地仓库看到啦。
 
+17.分支应用
 
 
 
