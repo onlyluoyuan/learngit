@@ -42,7 +42,16 @@ $ git push -u origin master
 使用命令：git clone git@github.com:michaelliao/gitskills.git
 Duang！就可以在你的本地仓库看到啦。
 
-17.分支应用git branch
+17.分支应用
+应用场景：开发时，在分支上进行每天的工作，当工作完成时再一次性合并到原来的分支上；
+应用步骤：1.查看当前分支：git branch，*标识的标识当前分支
+		  2.创建一个分支并切换到该分支：git checkout -b <name>
+		      分开标识：创建分支：git branch <name>
+		      切换分支：git checkout <name>
+		  3.切换到了新建的分支后，可以随意提交代码到该分支下；
+		  4.工作全部完成后如何将新分支下的内容合并到master分支下呢？
+			  使用命令：git merge <name>将新分支合并；
+		  5.合并后就可以删掉新分支了，使用命令 git branch -d <name>
 
 
 
